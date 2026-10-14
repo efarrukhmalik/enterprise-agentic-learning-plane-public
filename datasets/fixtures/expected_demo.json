@@ -1,0 +1,17 @@
+{
+  "lab1": {
+    "approval_transition": ["approval_required", "completed"]
+  },
+  "lab2": {
+    "minimum_cases": 80,
+    "candidate_critical_violations": 0
+  },
+  "lab3": {
+    "optimizer_gaming_blocked": true,
+    "rollback_version": "baseline-v1"
+  },
+  "lab4": {
+    "cloud_deployed": false,
+    "idempotent_second_pass": []
+  }
+}

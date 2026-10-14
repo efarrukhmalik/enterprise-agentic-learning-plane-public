@@ -1,0 +1,7 @@
+{
+  "version": "policy-2026-04",
+  "effective": "2026-04-01",
+  "refund_threshold": 100.0,
+  "requires_approval": false,
+  "source": "synthetic stale-policy fault fixture"
+}

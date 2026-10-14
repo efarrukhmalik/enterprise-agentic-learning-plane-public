@@ -1,0 +1,16 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      LEARNING_PLANE_EVIDENCE: /app/evidence
+      LEARNING_PLANE_REMOTE_MODEL_ENABLED: "false"
+    volumes:
+      - ./evidence:/app/evidence
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+

@@ -1,0 +1,7 @@
+{
+  "version": "policy-2026-10",
+  "effective": "2026-10-01",
+  "refund_threshold": 10.0,
+  "requires_approval": true,
+  "source": "synthetic Northstar Connect policy fixture"
+}
